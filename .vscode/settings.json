@@ -1,0 +1,23 @@
+{
+    "nrf-connect.applications": [
+        "${workspaceFolder}"
+    ],
+    "files.associations": {
+        "zephyr.h": "c",
+        "threads.h": "c",
+        "main.h": "c",
+        "fsl_mcan.h": "c",
+        "can.h": "c",
+        "pin_mux.h": "c",
+        "fsl_iocon.h": "c",
+        "fsl_common.h": "c",
+        "fsl_gint.h": "c",
+        "can_pro_flo4.h": "c",
+        "ram_database.h": "c",
+        "type_traits": "c",
+        "fsl_sctimer.h": "c",
+        "devicetree.h": "c",
+        "byteorder.h": "c",
+        "log.h": "c"
+    }
+}

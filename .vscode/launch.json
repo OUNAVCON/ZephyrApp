@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "App",
+            "cwd": "${workspaceRoot}",
+            "executable": "./app/build/zephyr/zephyr.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "serverpath": "C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe",
+            "servertype": "jlink",
+//            "device": "MK22FN512xxx12",
+            "device": "MK64FN1M0xxx12",
+            "interface": "swd",
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "none",
+            // "svdFile": "${workspaceRoot}/x.svd",
+            "gdbPath" : "C:/Users/irose/Desktop/work/toolchain_arm-zephyr-eabi/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe"       
+        }
+
+    ]
+}
